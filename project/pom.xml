@@ -27,7 +27,14 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
+<distributionManagement>
+    <repository>
+        <id>devops-sample</id>
+        <name>devops-sample</name>
+        <url>http://35.192.56.37:8081/repository/devops-sample/</url>
+        <layout>default</layout>
+    </repository>    
+</distributionManagement>
     <profiles>
         <profile>
             <id>assembly</id>
